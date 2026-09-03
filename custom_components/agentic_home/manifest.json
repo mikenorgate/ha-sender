@@ -1,0 +1,9 @@
+{
+  "domain": "agentic_home",
+  "name": "Agentic Home",
+  "config_flow": true,
+  "requirements": [],
+  "requires_homeassistant": "2025.1.0",
+  "iot_class": "cloud_push",
+  "version": "0.1.0"
+}

@@ -1,0 +1,87 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Agentic Home",
+        "description": "Enter your Agentic Home ingress URL and JWT token.",
+        "data": {
+          "ingress_url": "Ingress URL",
+          "jwt_token": "JWT Token"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to the Agentic Home ingress.",
+      "invalid_auth": "Invalid JWT token."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure Agentic Home",
+        "menu_options": {
+          "connection_settings": "Connection Settings",
+          "exclude_entities": "Exclude Entities"
+        }
+      },
+      "connection_settings": {
+        "title": "Connection Settings",
+        "description": "Update the Agentic Home ingress URL and JWT token.",
+        "data": {
+          "ingress_url": "Ingress URL",
+          "jwt_token": "JWT Token"
+        }
+      },
+      "exclude_entities": {
+        "title": "Exclude Entities",
+        "description": "Select entities to exclude from the Agentic Home platform.",
+        "data": {
+          "exclude_entities": "Excluded Entities"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to the Agentic Home ingress.",
+      "invalid_auth": "Invalid JWT token."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "metric_error_count": {
+        "name": "Error Count"
+      },
+      "metric_frames_pushed": {
+        "name": "Frames Pushed"
+      },
+      "metric_frames_captured": {
+        "name": "Frames Captured"
+      },
+      "metric_last_push_status": {
+        "name": "Last Push Status"
+      },
+      "metric_last_push_time": {
+        "name": "Last Push Time"
+      },
+      "metric_registry_push_count": {
+        "name": "Registry Push Count"
+      },
+      "metric_registry_error_count": {
+        "name": "Registry Error Count"
+      },
+      "metric_registry_last_push_time": {
+        "name": "Registry Last Push Time"
+      },
+      "metric_push_rate": {
+        "name": "Push Rate"
+      },
+      "metric_last_error": {
+        "name": "Last Error"
+      }
+    },
+    "binary_sensor": {
+      "connection": {
+        "name": "Connection"
+      }
+    }
+  }
+}
