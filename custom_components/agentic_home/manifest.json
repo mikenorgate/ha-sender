@@ -1,7 +1,11 @@
 {
   "domain": "agentic_home",
   "name": "Agentic Home",
+  "documentation": "https://github.com/mikenorgate/ha-sender#readme",
+  "issue_tracker": "https://github.com/mikenorgate/ha-sender/issues",
+  "codeowners": ["@mikenorgate"],
   "config_flow": true,
+  "integration_type": "service",
   "requirements": [],
   "requires_homeassistant": "2025.1.0",
   "iot_class": "cloud_push",
